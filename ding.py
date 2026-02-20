@@ -3,7 +3,6 @@ import os, time, hashlib, logging, notify2, pdb
 #pre reqs are libnotify
 logging.basicConfig(filename='uploader.log', encoding='utf-8', level=logging.DEBUG)
 
-key = '1a656e2252414240249f36b1706fc55e'
 
 notify2.init('Hall Monitor')
 
